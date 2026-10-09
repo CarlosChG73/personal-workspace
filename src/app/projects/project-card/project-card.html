@@ -1,0 +1,32 @@
+<article class="flex h-full flex-col rounded-lg border border-slate-200 p-6">
+  <!-- Project information -->
+  <h3 class="text-xl font-semibold text-slate-900">
+    {{ title() }}
+  </h3>
+
+  <p class="mt-3 flex-1 text-sm leading-6 text-slate-600">
+    {{ description() }}
+  </p>
+
+  <p class="mt-4 text-sm font-medium text-slate-500">
+    {{ technologies() }}
+  </p>
+
+  <!-- Repository availability -->
+  <div class="mt-6">
+    @if (repositoryUrl()) {
+    <a
+      [href]="repositoryUrl()"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-sm font-semibold text-slate-900 underline-offset-4 hover:underline"
+    >
+      View source
+    </a>
+    } @else {
+    <span class="text-sm text-slate-500">
+        Repository pending
+      </span>
+    }
+  </div>
+</article>
