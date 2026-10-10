@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="3428204039932102164" datatype="html">
+        <source>Back to top</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/back-to-top/back-to-top.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8478716983552743608" datatype="html">
+        <source> Contact </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3533248110916781745" datatype="html">
+        <source> Professional contact </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2669141391629542256" datatype="html">
+        <source> Professional contact information will be added when the final portfolio information is defined. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7919429616188707761" datatype="html">
+        <source> Source code </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1187764551054003222" datatype="html">
+        <source>Main navigation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4545385298111191512" datatype="html">
+        <source> Skills </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7571931095853268764" datatype="html">
+        <source> Projects </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8255834268347738766" datatype="html">
+        <source>Toggle navigation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">86,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4879288031259259008" datatype="html">
+        <source>Mobile navigation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.html</context>
+          <context context-type="linenumber">107,108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6007238223618571006" datatype="html">
+        <source>Switch to English</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6658267368267331642" datatype="html">
+        <source>Switch to Spanish</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4608015944298801142" datatype="html">
+        <source>Switch to light mode</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="803131845720356706" datatype="html">
+        <source>Switch to dark mode</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8628230611403440940" datatype="html">
+        <source> Software Development </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="924697006332199359" datatype="html">
+        <source> Building reliable software solutions with a strong engineering foundation. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6874122627303377520" datatype="html">
+        <source> PersonalWorkspace presents my technical skills, software projects, and engineering decisions through practical development evidence. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="880985198172957962" datatype="html">
+        <source> View Projects </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6831033116873984113" datatype="html">
+        <source> View source </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/project-card/project-card.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7169231703986747009" datatype="html">
+        <source> Repository pending </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/project-card/project-card.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4228432094413352404" datatype="html">
+        <source> Software development evidence </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8357772755684247751" datatype="html">
+        <source> Selected projects will document the problem addressed, technical decisions, implementation, and engineering practices used. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8653756334160857301" datatype="html">
+        <source>Professional platform for presenting software projects, technical skills, and engineering decisions.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1936591423765149976" datatype="html">
+        <source>Project in development</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8935601410263050975" datatype="html">
+        <source>Future software solution based on a real problem and documented engineering decisions.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3498696163227589365" datatype="html">
+        <source>Technology stack to be defined</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.html</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3721565330012615832" datatype="html">
+        <source>Future technical project focused on demonstrating software engineering and architecture practices.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6217511493264527013" datatype="html">
+        <source> Technical Skills </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4601942191846917666" datatype="html">
+        <source> Core technology stack </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6091436156788611252" datatype="html">
+        <source> Technologies and development practices used to build maintainable software solutions. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4686856841409214006" datatype="html">
+        <source> Backend </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1499020685608639495" datatype="html">
+        <source> Frontend </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4778639809439934218" datatype="html">
+        <source>Responsive Design</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6653134950663792290" datatype="html">
+        <source> Engineering </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.html</context>
+          <context context-type="linenumber">77,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8985868511640294928" datatype="html">
+        <source>Testing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.html</context>
+          <context context-type="linenumber">82,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2811537846513093332" datatype="html">
+        <source>Software Architecture</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.html</context>
+          <context context-type="linenumber">85,86</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

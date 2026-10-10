@@ -27,5 +27,5 @@ jobs:
       - name: Run tests
         run: npm test -- --no-watch
 
-      - name: Build application
-        run: npm run build
+      - name: Build localized application
+        run: npm run build -- --localize

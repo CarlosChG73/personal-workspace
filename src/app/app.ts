@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 
-import { Header } from './header/header';
-import { Hero } from './hero/hero';
-import { Skills } from './skills/skills';
-import { Projects } from './projects/projects';
+import { BackToTop } from './back-to-top/back-to-top';
 import { Contact } from './contact/contact';
 import { Footer } from './footer/footer';
+import { Header } from './header/header';
+import { Hero } from './hero/hero';
+import { Projects } from './projects/projects';
+import { Skills } from './skills/skills';
 
 @Component({
   selector: 'app-root',
@@ -17,11 +18,11 @@ import { Footer } from './footer/footer';
     Skills,
     Projects,
     Contact,
-    Footer
+    Footer,
+    BackToTop,
   ],
 
-  // External files for the root component template and styles.
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App {}

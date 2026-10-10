@@ -1,18 +1,27 @@
 <section
   id="projects"
-  class="border-t border-slate-200 py-16 sm:py-20"
+  class="border-t border-slate-200 py-16 transition-colors dark:border-slate-800 sm:py-20"
 >
   <!-- Section heading -->
   <header class="mb-10">
-    <p class="text-sm font-semibold uppercase tracking-wider text-slate-500">
+    <p
+      i18n
+      class="text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400"
+    >
       Projects
     </p>
 
-    <h2 class="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+    <h2
+      i18n
+      class="mt-2 text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl"
+    >
       Software development evidence
     </h2>
 
-    <p class="mt-4 max-w-2xl text-base leading-7 text-slate-600">
+    <p
+      i18n
+      class="mt-4 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300"
+    >
       Selected projects will document the problem addressed, technical decisions,
       implementation, and engineering practices used.
     </p>
@@ -22,20 +31,27 @@
   <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
     <app-project-card
       title="PersonalWorkspace"
+      i18n-description
       description="Professional platform for presenting software projects, technical skills, and engineering decisions."
       technologies="Angular · TypeScript · Tailwind CSS"
       repositoryUrl="https://github.com/CarlosChG73/personal-workspace">
     </app-project-card>
 
     <app-project-card
+      i18n-title
       title="Project in development"
+      i18n-description
       description="Future software solution based on a real problem and documented engineering decisions."
+      i18n-technologies
       technologies="Technology stack to be defined">
     </app-project-card>
 
     <app-project-card
+      i18n-title
       title="Project in development"
+      i18n-description
       description="Future technical project focused on demonstrating software engineering and architecture practices."
+      i18n-technologies
       technologies="Technology stack to be defined">
     </app-project-card>
   </div>

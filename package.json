@@ -24,6 +24,7 @@
     "@angular/build": "^22.2.2",
     "@angular/cli": "^22.2.2",
     "@angular/compiler-cli": "^22.2.0",
+    "@angular/localize": "^22.2.2",
     "@tailwindcss/postcss": "^4.1.12",
     "jsdom": "^30.0.0",
     "postcss": "^8.5.3",
