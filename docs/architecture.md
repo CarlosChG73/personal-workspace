@@ -4,59 +4,66 @@
 
 PersonalWorkspace is a frontend web application built with Angular and TypeScript.
 
-Its purpose is to provide a maintainable and responsive platform for presenting professional information, technical skills, and software projects.
+Its purpose is to provide a maintainable, responsive, and accessible platform for presenting professional information, technical skills, software projects, and engineering evidence.
+
+The application remains intentionally simple and proportional to its current scope. New abstractions, services, libraries, or architectural patterns are introduced only when a concrete requirement justifies them.
 
 ## Architectural Goals
 
-The application should be:
+The application is designed to be:
 
 - Maintainable.
 - Responsive.
+- Accessible.
 - Easy to extend.
 - Structured by clear responsibilities.
-- Simple and proportional to the current MVP.
+- Simple and proportional to the current project scope.
+- Easy to explain and defend from an engineering perspective.
 
 ## Current Scope
 
-The first MVP is a frontend-only application.
+PersonalWorkspace is currently a frontend-only application.
 
-It will not include:
+It does not include:
 
 - Custom backend.
 - Authentication.
 - Database.
 - Server-side rendering.
 
-These capabilities will only be considered later if a real requirement justifies them.
+These capabilities will only be considered if a future requirement provides a concrete reason to introduce them.
 
 ## Application Organization
 
-The application will be organized around functional areas.
+The application is organized around functional areas.
 
-Closely related Angular files will remain grouped together.
+Closely related Angular files remain grouped together so that each area is easy to locate, understand, test, and maintain.
 
-The initial functional areas are:
+The current functional areas are:
 
+- Application layout.
 - Header and navigation.
 - Professional introduction.
 - Technical skills.
 - Projects.
 - Contact information.
 - Footer.
+- Back-to-top interaction.
 
-Components will represent clear and cohesive parts of the user interface.
+Components represent clear and cohesive parts of the user interface.
 
-Reusable components will be used when the same presentation or behavior is needed in multiple places.
+Reusable components are introduced when the same presentation or behavior is required in multiple places. Data models, services, and additional abstractions are added only when application behavior requires them.
 
-Data models, services, and other abstractions will be added only when required by actual application behavior.
+## Information Architecture
 
-## MVP Information Architecture
-
-The initial interface will contain the following sections:
+The current interface contains the following areas:
 
 1. Header / Navigation
   - Project identity.
   - Navigation to the main sections.
+  - Responsive mobile navigation.
+  - Language selector.
+  - Light and dark theme control.
 
 2. Hero
   - Professional introduction.
@@ -65,26 +72,31 @@ The initial interface will contain the following sections:
 
 3. Skills
   - Main technical skills.
-  - Technologies grouped by relevant areas.
+  - Technologies and practices grouped by relevant areas.
 
 4. Projects
   - Selected software projects.
-  - Short description.
+  - Project description.
   - Technologies used.
-  - Source code and live demo links when available.
+  - Source code link when available.
 
 5. Contact
-  - Professional contact options.
-  - Relevant professional profile links.
+  - Professional contact section.
+  - Available professional profile links.
 
 6. Footer
   - Basic project information.
   - Repository or professional links.
 
-## Initial Wireframe
+7. Back to Top
+  - Provides a convenient return to the top of the document after scrolling.
+  - Appears only after the user has moved sufficiently down the page.
+
+## Application Layout
 
 ```text
-[ Header / Navigation ]
+[ Sticky Header ]
+[ Navigation | Language | Theme ]
 
 [ Hero Section ]
 [ Professional introduction ]
@@ -101,29 +113,81 @@ The initial interface will contain the following sections:
 [ Contact Section ]
 
 [ Footer ]
+
+[ Back-to-Top Control ]
 ```
 
 ## Responsive Behavior
 
-The interface will follow a mobile-first approach.
+The interface follows a mobile-first approach.
 
-- Sections will stack vertically on small screens.
-- Navigation will adapt to available screen space.
-- Project cards will use a single-column layout on small screens.
-- Larger layouts may use multiple columns when available space allows.
-- Responsive changes will be introduced only where the design requires them.
+- Sections stack vertically on small screens.
+- Navigation changes to a hamburger menu when horizontal space is limited.
+- Desktop navigation is displayed when sufficient space is available.
+- Project cards use a single-column layout on smaller screens.
+- Larger layouts use additional columns when appropriate.
+- Spacing and typography adapt to the available viewport.
+- Interactive controls remain usable with keyboard navigation.
 
-## Initial Angular Component Structure
+Responsive behavior is implemented primarily through Tailwind CSS utility classes.
 
-The first MVP will use the following application components:
+## Theme Behavior
+
+The application supports light and dark themes.
+
+Theme behavior follows these rules:
+
+- When no preference has been stored, the application respects the user's system color preference.
+- A manual theme change is persisted in `localStorage`.
+- The selected theme is applied through a `dark` class on the root HTML element.
+- Theme initialization occurs before Angular renders the interface to reduce visible theme changes during application startup.
+
+Theme support remains a presentation concern and does not introduce an application service because the current scope does not require shared asynchronous state or more complex theme management.
+
+## Internationalization
+
+The application supports:
+
+- English (`en-US`) as the source locale.
+- Spanish (`es`) as an additional locale.
+
+Angular's official localization mechanism is used through `@angular/localize`.
+
+Translatable content is marked in Angular templates and TypeScript where required.
+
+Translation messages are stored in:
+
+```text
+src/locale/messages.xlf
+src/locale/messages.es.xlf
+```
+
+Localized application variants are generated during the build process.
+
+The deployment structure is:
+
+```text
+/personal-workspace/      -> English
+/personal-workspace/es/   -> Spanish
+```
+
+The language selector navigates between these localized application variants.
+
+This approach keeps localization aligned with Angular's compile-time localization model and avoids introducing a separate runtime translation library.
+
+## Angular Component Structure
+
+The application currently uses the following components:
 
 - `App`
   - Root application component.
   - Composes the main application interface.
 
 - `Header`
-  - Displays the project identity.
-  - Provides navigation to the main sections.
+  - Displays project identity.
+  - Provides desktop and mobile navigation.
+  - Controls theme selection.
+  - Provides navigation between localized application variants.
 
 - `Hero`
   - Displays the professional introduction.
@@ -131,29 +195,102 @@ The first MVP will use the following application components:
 
 - `Skills`
   - Displays the main technical skills.
-  - Groups technologies by relevant areas.
+  - Groups technologies and practices by relevant areas.
 
 - `Projects`
-  - Displays the selected software projects.
-  - Coordinates the presentation of project information.
+  - Displays selected software projects.
+  - Coordinates project information.
 
 - `ProjectCard`
   - Represents an individual software project.
-  - Displays the project description, technologies, source code link, and demo link when available.
-  - Can be reused for multiple projects.
+  - Displays the project description, technologies, and source code link when available.
+  - Is reusable across multiple projects.
 
 - `Contact`
-  - Displays professional contact options and relevant profile links.
+  - Displays the professional contact section and available profile links.
 
 - `Footer`
   - Displays basic project and professional information.
 
+- `BackToTop`
+  - Observes page scrolling.
+  - Displays a return-to-top control when appropriate.
+  - Uses smooth scrolling when activated.
+
 ## Component Responsibilities
 
-Components should remain focused on the user interface and interactions related to their own functional area.
+Components remain focused on the user interface and interactions related to their own functional area.
 
-Logic that can exist independently of the interface should not remain inside presentation components.
+Complex logic is not placed directly in templates.
 
-Complex logic should not be placed directly in templates.
+Logic that can exist independently of a specific interface should not remain in presentation components when its complexity justifies extraction.
 
-New abstractions, services, models, or reusable components will only be introduced when a concrete requirement justifies them.
+New services, models, shared utilities, or reusable abstractions will only be introduced when a concrete requirement justifies them.
+
+## Styling Strategy
+
+Tailwind CSS is the primary styling and responsive-design tool.
+
+Utility classes are used directly in Angular templates to define:
+
+- Layout.
+- Spacing.
+- Typography.
+- Responsive behavior.
+- Interaction states.
+- Light and dark theme variants.
+
+Global CSS remains limited to configuration and application-wide behavior that cannot be expressed appropriately at the component level.
+
+## Localization Build Strategy
+
+Localized production builds are generated using Angular CLI localization:
+
+```bash
+ng build --localize
+```
+
+For GitHub Pages, the repository base path is supplied during deployment:
+
+```bash
+ng build --localize --base-href /personal-workspace/
+```
+
+Angular adjusts the resulting base paths according to the configured locale subpaths.
+
+## Testing Strategy
+
+Testing focuses on behavior that provides meaningful confidence in the application.
+
+Current tests cover:
+
+- Component creation.
+- Mobile navigation interaction.
+- Theme switching and persistence.
+- Language-selection behavior.
+- Relevant component behavior.
+
+Tests are not added solely to increase a coverage number.
+
+## Deployment Architecture
+
+The application is deployed as a static frontend through GitHub Pages.
+
+The deployment process builds the localized Angular application and publishes the generated browser output.
+
+No application server, backend runtime, or database is required for the current architecture.
+
+## Architectural Evolution
+
+The architecture should evolve only when a real requirement justifies the additional complexity.
+
+Examples of future requirements that could justify architectural changes include:
+
+- Dynamic data from an API.
+- Authentication.
+- Persistent user data.
+- Server-side rendering.
+- More complex shared application state.
+- Additional localization requirements.
+
+Until such requirements exist, the application should remain simple, frontend-only, and easy to maintain.
