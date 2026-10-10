@@ -68,25 +68,26 @@ The current interface contains the following areas:
 2. Hero
   - Professional introduction.
   - Short description of the professional profile.
+  - Professional profile image.
   - Primary call to action.
 
 3. Skills
   - Main technical skills.
-  - Technologies and practices grouped by relevant areas.
+  - Technologies and engineering practices grouped by relevant areas.
 
 4. Projects
-  - Selected software projects.
+  - Verified software project evidence.
   - Project description.
   - Technologies used.
   - Source code link when available.
 
 5. Contact
   - Professional contact section.
-  - Available professional profile links.
+  - GitHub and LinkedIn profile links.
 
 6. Footer
-  - Basic project information.
-  - Repository or professional links.
+  - Copyright information.
+  - Professional profile links.
 
 7. Back to Top
   - Provides a convenient return to the top of the document after scrolling.
@@ -99,20 +100,20 @@ The current interface contains the following areas:
 [ Navigation | Language | Theme ]
 
 [ Hero Section ]
-[ Professional introduction ]
+[ Professional introduction | Profile image ]
 [ Primary action ]
 
 [ Skills Section ]
 [ Technical skills grouped by area ]
 
 [ Projects Section ]
-[ Project Card ]
-[ Project Card ]
-[ Project Card ]
+[ Verified Project Card ]
 
 [ Contact Section ]
+[ Professional profile links ]
 
 [ Footer ]
+[ Copyright | Professional links ]
 
 [ Back-to-Top Control ]
 ```
@@ -124,6 +125,7 @@ The interface follows a mobile-first approach.
 - Sections stack vertically on small screens.
 - Navigation changes to a hamburger menu when horizontal space is limited.
 - Desktop navigation is displayed when sufficient space is available.
+- The hero layout adapts between stacked and wider-screen arrangements.
 - Project cards use a single-column layout on smaller screens.
 - Larger layouts use additional columns when appropriate.
 - Spacing and typography adapt to the available viewport.
@@ -191,14 +193,15 @@ The application currently uses the following components:
 
 - `Hero`
   - Displays the professional introduction.
+  - Displays the professional profile image.
   - Includes the primary call to action.
 
 - `Skills`
   - Displays the main technical skills.
-  - Groups technologies and practices by relevant areas.
+  - Groups technologies and engineering practices by relevant areas.
 
 - `Projects`
-  - Displays selected software projects.
+  - Displays verified software project evidence.
   - Coordinates project information.
 
 - `ProjectCard`
@@ -210,7 +213,7 @@ The application currently uses the following components:
   - Displays the professional contact section and available profile links.
 
 - `Footer`
-  - Displays basic project and professional information.
+  - Displays copyright information and professional profile links.
 
 - `BackToTop`
   - Observes page scrolling.
@@ -268,15 +271,40 @@ Current tests cover:
 - Mobile navigation interaction.
 - Theme switching and persistence.
 - Language-selection behavior.
+- Project repository-link behavior.
 - Relevant component behavior.
 
 Tests are not added solely to increase a coverage number.
+
+The current automated suite contains 9 test files and 15 passing tests.
 
 ## Deployment Architecture
 
 The application is deployed as a static frontend through GitHub Pages.
 
-The deployment process builds the localized Angular application and publishes the generated browser output.
+GitHub Actions provides two related workflows:
+
+- `ci.yml` validates pushes to `main` and pull requests targeting `main`.
+- `deploy.yml` validates and publishes the production application after pushes to `main` or manual execution.
+
+The deployment workflow performs the following sequence:
+
+1. Checks out the repository.
+2. Configures the Node.js environment.
+3. Installs dependencies with `npm ci`.
+4. Runs the automated test suite.
+5. Builds the localized Angular application using the GitHub Pages base path.
+6. Configures GitHub Pages.
+7. Uploads the generated browser output as the Pages artifact.
+8. Deploys that artifact.
+
+The deployment job depends on successful completion of the validation and build job. A failed test or build therefore prevents the deployment job from running.
+
+The generated static application is published from:
+
+```text
+dist/personal-workspace/browser
+```
 
 No application server, backend runtime, or database is required for the current architecture.
 

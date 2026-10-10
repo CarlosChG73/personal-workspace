@@ -25,7 +25,7 @@ describe('App', () => {
     const heading = compiled.querySelector('h1');
 
     expect(heading?.textContent).toContain(
-      'Building reliable software solutions with a strong engineering foundation.'
+      'Building maintainable software solutions for real-world problems.'
     );
   });
 });

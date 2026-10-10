@@ -14,9 +14,9 @@
     {{ technologies() }}
   </p>
 
-  <!-- Repository availability -->
+  <!-- Public repository link when available -->
+  @if (repositoryUrl()) {
   <div class="mt-6">
-    @if (repositoryUrl()) {
     <a
       i18n
       [href]="repositoryUrl()"
@@ -26,13 +26,6 @@
     >
       View source
     </a>
-    } @else {
-    <span
-      i18n
-      class="text-sm text-slate-500 dark:text-slate-400"
-    >
-        Repository pending
-      </span>
-    }
   </div>
+  }
 </article>

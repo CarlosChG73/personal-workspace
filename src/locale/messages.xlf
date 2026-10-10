@@ -13,7 +13,7 @@
         <source> Contact </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact/contact.html</context>
-          <context context-type="linenumber">12,13</context>
+          <context context-type="linenumber">11,12</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.html</context>
@@ -28,21 +28,28 @@
         <source> Professional contact </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact/contact.html</context>
-          <context context-type="linenumber">19,20</context>
+          <context context-type="linenumber">18,19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2669141391629542256" datatype="html">
-        <source> Professional contact information will be added when the final portfolio information is defined. </source>
+      <trans-unit id="5537249907519637013" datatype="html">
+        <source> Connect with me through my professional profiles to learn more about my work, projects, and software development experience. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact/contact.html</context>
-          <context context-type="linenumber">26,27</context>
+          <context context-type="linenumber">25,26</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7919429616188707761" datatype="html">
-        <source> Source code </source>
+      <trans-unit id="7330623732682309545" datatype="html">
+        <source> © 2026 Carlos A. Chávez Gutiérrez. All rights reserved. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.html</context>
-          <context context-type="linenumber">18,19</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7167878880958441334" datatype="html">
+        <source>Professional links</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.html</context>
+          <context context-type="linenumber">15,16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1187764551054003222" datatype="html">
@@ -96,56 +103,56 @@
         <source>Switch to English</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.ts</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6658267368267331642" datatype="html">
         <source>Switch to Spanish</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.ts</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4608015944298801142" datatype="html">
         <source>Switch to light mode</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.ts</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="803131845720356706" datatype="html">
         <source>Switch to dark mode</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.ts</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8628230611403440940" datatype="html">
         <source> Software Development </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/hero/hero.html</context>
-          <context context-type="linenumber">8,9</context>
+          <context context-type="linenumber">10,11</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="924697006332199359" datatype="html">
-        <source> Building reliable software solutions with a strong engineering foundation. </source>
+      <trans-unit id="782793433732305824" datatype="html">
+        <source> Building maintainable software solutions for real-world problems. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/hero/hero.html</context>
-          <context context-type="linenumber">15,16</context>
+          <context context-type="linenumber">17,18</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6874122627303377520" datatype="html">
-        <source> PersonalWorkspace presents my technical skills, software projects, and engineering decisions through practical development evidence. </source>
+      <trans-unit id="6586038178272372902" datatype="html">
+        <source> Software developer focused on backend development with Java and Spring Boot, with Angular as a complementary frontend capability. I build solutions with emphasis on maintainability, testing, documentation, and clear engineering decisions. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/hero/hero.html</context>
-          <context context-type="linenumber">22,23</context>
+          <context context-type="linenumber">24,26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="880985198172957962" datatype="html">
         <source> View Projects </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/hero/hero.html</context>
-          <context context-type="linenumber">33,34</context>
+          <context context-type="linenumber">35,36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6831033116873984113" datatype="html">
@@ -155,13 +162,6 @@
           <context context-type="linenumber">27,28</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7169231703986747009" datatype="html">
-        <source> Repository pending </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/project-card/project-card.html</context>
-          <context context-type="linenumber">34,35</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="4228432094413352404" datatype="html">
         <source> Software development evidence </source>
         <context-group purpose="location">
@@ -169,54 +169,18 @@
           <context context-type="linenumber">18,19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8357772755684247751" datatype="html">
-        <source> Selected projects will document the problem addressed, technical decisions, implementation, and engineering practices used. </source>
+      <trans-unit id="5349011889145828234" datatype="html">
+        <source> Selected projects demonstrate how I approach real software problems, technical decisions, implementation, testing, documentation, and delivery. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects.html</context>
           <context context-type="linenumber">25,26</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8653756334160857301" datatype="html">
-        <source>Professional platform for presenting software projects, technical skills, and engineering decisions.</source>
+      <trans-unit id="2319147205177036523" datatype="html">
+        <source>Professional portfolio built to present software projects, technical skills, and engineering decisions through a maintainable and responsive Angular application.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects.html</context>
           <context context-type="linenumber">35,36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1936591423765149976" datatype="html">
-        <source>Project in development</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/projects.html</context>
-          <context context-type="linenumber">42,43</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/projects.html</context>
-          <context context-type="linenumber">51,52</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8935601410263050975" datatype="html">
-        <source>Future software solution based on a real problem and documented engineering decisions.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/projects.html</context>
-          <context context-type="linenumber">44,45</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3498696163227589365" datatype="html">
-        <source>Technology stack to be defined</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/projects.html</context>
-          <context context-type="linenumber">46,47</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/projects.html</context>
-          <context context-type="linenumber">55,56</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3721565330012615832" datatype="html">
-        <source>Future technical project focused on demonstrating software engineering and architecture practices.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/projects.html</context>
-          <context context-type="linenumber">53,54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6217511493264527013" datatype="html">
@@ -233,8 +197,8 @@
           <context context-type="linenumber">19,20</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6091436156788611252" datatype="html">
-        <source> Technologies and development practices used to build maintainable software solutions. </source>
+      <trans-unit id="1116469225754888360" datatype="html">
+        <source> Technologies and engineering practices used to build maintainable software solutions. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/skills/skills.html</context>
           <context context-type="linenumber">26,27</context>
@@ -251,35 +215,35 @@
         <source> Frontend </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/skills/skills.html</context>
-          <context context-type="linenumber">58,59</context>
+          <context context-type="linenumber">56,57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4778639809439934218" datatype="html">
         <source>Responsive Design</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/skills/skills.html</context>
-          <context context-type="linenumber">66,67</context>
+          <context context-type="linenumber">64,65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6653134950663792290" datatype="html">
         <source> Engineering </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/skills/skills.html</context>
-          <context context-type="linenumber">77,78</context>
+          <context context-type="linenumber">75,76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8985868511640294928" datatype="html">
         <source>Testing</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/skills/skills.html</context>
-          <context context-type="linenumber">82,83</context>
+          <context context-type="linenumber">80,81</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2811537846513093332" datatype="html">
-        <source>Software Architecture</source>
+      <trans-unit id="5766568327063259379" datatype="html">
+        <source>Technical Documentation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/skills/skills.html</context>
-          <context context-type="linenumber">85,86</context>
+          <context context-type="linenumber">83,84</context>
         </context-group>
       </trans-unit>
     </body>

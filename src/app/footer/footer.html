@@ -1,21 +1,39 @@
-<footer class="border-t border-slate-200 bg-white transition-colors dark:border-slate-800 dark:bg-slate-950">
+<footer
+  class="border-t border-slate-200 bg-white transition-colors dark:border-slate-800 dark:bg-slate-950"
+>
   <div
-    class="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-8 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8 dark:text-slate-400"
+    class="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-8 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8 dark:text-slate-400"
   >
-    <!-- Project information -->
-    <p>
-      PersonalWorkspace
+    <!-- Copyright information -->
+    <p i18n>
+      © 2026 Carlos A. Chávez Gutiérrez. All rights reserved.
     </p>
 
-    <!-- Repository link -->
-    <a
-      i18n
-      href="https://github.com/CarlosChG73/personal-workspace"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="font-medium text-slate-700 transition-colors hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+    <!-- Professional links -->
+    <nav
+      i18n-aria-label
+      aria-label="Professional links"
+      class="flex items-center gap-3"
     >
-      Source code
-    </a>
+      <a
+        href="https://github.com/CarlosChG73"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="font-medium text-slate-700 transition-colors hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-900 focus-visible:ring-offset-2 dark:text-slate-300 dark:hover:text-white dark:focus-visible:ring-white dark:focus-visible:ring-offset-slate-950"
+      >
+        GitHub
+      </a>
+
+      <span aria-hidden="true">·</span>
+
+      <a
+        href="https://www.linkedin.com/in/carloschavezg73"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="font-medium text-slate-700 transition-colors hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-900 focus-visible:ring-offset-2 dark:text-slate-300 dark:hover:text-white dark:focus-visible:ring-white dark:focus-visible:ring-offset-slate-950"
+      >
+        LinkedIn
+      </a>
+    </nav>
   </div>
 </footer>

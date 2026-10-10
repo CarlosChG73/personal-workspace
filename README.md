@@ -25,6 +25,7 @@ https://carloschg73.github.io/personal-workspace/
 The current MVP includes:
 
 - Professional introduction.
+- Professional profile image.
 - Technical skills section.
 - Projects section.
 - Reusable project card component.
@@ -164,7 +165,8 @@ The tests include coverage for relevant interactions such as:
 - Mobile navigation.
 - Theme switching and persistence.
 - English and Spanish language-selection behavior.
-- Component creation and basic component behavior.
+- Project repository-link behavior.
+- Component creation and relevant component behavior.
 
 Run the test suite once with:
 
@@ -201,10 +203,13 @@ The deployment workflow:
 1. Checks out the repository.
 2. Configures Node.js.
 3. Installs dependencies with `npm ci`.
-4. Builds the localized Angular application for the GitHub Pages repository base path.
-5. Configures GitHub Pages.
-6. Uploads the generated browser application as a GitHub Pages artifact.
-7. Deploys the artifact to GitHub Pages.
+4. Runs the automated test suite.
+5. Builds the localized Angular application for the GitHub Pages repository base path.
+6. Configures GitHub Pages.
+7. Uploads the generated browser application as a GitHub Pages artifact.
+8. Deploys the artifact to GitHub Pages.
+
+Deployment only proceeds after the validation and build job completes successfully.
 
 The localized deployment build uses:
 
@@ -310,6 +315,7 @@ src/
 |   |-- projects/
 |   |   `-- project-card/
 |   |-- skills/
+|   |-- app.config.ts
 |   |-- app.html
 |   |-- app.spec.ts
 |   `-- app.ts
@@ -320,6 +326,8 @@ src/
 |-- main.ts
 `-- styles.css
 ```
+
+Public assets include the professional profile image, favicon variants, and web app manifest.
 
 Technical documentation is stored separately:
 

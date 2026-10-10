@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" target-language="es" datatype="plaintext" original="ng2.template">
+  <file
+    source-language="en-US"
+    target-language="es"
+    datatype="plaintext"
+    original="ng2.template"
+  >
     <body>
 
+      <!-- Navigation and accessibility -->
       <trans-unit id="3428204039932102164" datatype="html">
         <source>Back to top</source>
-        <target>Volver al inicio</target>
+        <target>Volver arriba</target>
       </trans-unit>
 
       <trans-unit id="8478716983552743608" datatype="html">
         <source> Contact </source>
         <target> Contacto </target>
-      </trans-unit>
-
-      <trans-unit id="3533248110916781745" datatype="html">
-        <source> Professional contact </source>
-        <target> Contacto profesional </target>
-      </trans-unit>
-
-      <trans-unit id="2669141391629542256" datatype="html">
-        <source> Professional contact information will be added when the final portfolio information is defined. </source>
-        <target> La información de contacto profesional se agregará cuando se defina la información final del portafolio. </target>
-      </trans-unit>
-
-      <trans-unit id="7919429616188707761" datatype="html">
-        <source> Source code </source>
-        <target> Código fuente </target>
       </trans-unit>
 
       <trans-unit id="1187764551054003222" datatype="html">
@@ -73,19 +64,20 @@
         <target>Cambiar a modo oscuro</target>
       </trans-unit>
 
+      <!-- Hero -->
       <trans-unit id="8628230611403440940" datatype="html">
         <source> Software Development </source>
         <target> Desarrollo de Software </target>
       </trans-unit>
 
-      <trans-unit id="924697006332199359" datatype="html">
-        <source> Building reliable software solutions with a strong engineering foundation. </source>
-        <target> Construyendo soluciones de software confiables con una sólida base de ingeniería. </target>
+      <trans-unit id="782793433732305824" datatype="html">
+        <source> Building maintainable software solutions for real-world problems. </source>
+        <target> Construyendo soluciones de software mantenibles para problemas reales. </target>
       </trans-unit>
 
-      <trans-unit id="6874122627303377520" datatype="html">
-        <source> PersonalWorkspace presents my technical skills, software projects, and engineering decisions through practical development evidence. </source>
-        <target> PersonalWorkspace presenta mis habilidades técnicas, proyectos de software y decisiones de ingeniería mediante evidencia práctica de desarrollo. </target>
+      <trans-unit id="6586038178272372902" datatype="html">
+        <source> Software developer focused on backend development with Java and Spring Boot, with Angular as a complementary frontend capability. I build solutions with emphasis on maintainability, testing, documentation, and clear engineering decisions. </source>
+        <target> Desarrollador de software enfocado en backend con Java y Spring Boot, con Angular como capacidad frontend complementaria. Construyo soluciones con énfasis en mantenibilidad, testing, documentación y decisiones de ingeniería claras. </target>
       </trans-unit>
 
       <trans-unit id="880985198172957962" datatype="html">
@@ -93,54 +85,10 @@
         <target> Ver proyectos </target>
       </trans-unit>
 
-      <trans-unit id="6831033116873984113" datatype="html">
-        <source> View source </source>
-        <target> Ver código fuente </target>
-      </trans-unit>
-
-      <trans-unit id="7169231703986747009" datatype="html">
-        <source> Repository pending </source>
-        <target> Repositorio pendiente </target>
-      </trans-unit>
-
-      <trans-unit id="4228432094413352404" datatype="html">
-        <source> Software development evidence </source>
-        <target> Evidencia de desarrollo de software </target>
-      </trans-unit>
-
-      <trans-unit id="8357772755684247751" datatype="html">
-        <source> Selected projects will document the problem addressed, technical decisions, implementation, and engineering practices used. </source>
-        <target> Los proyectos seleccionados documentarán el problema abordado, las decisiones técnicas, la implementación y las prácticas de ingeniería utilizadas. </target>
-      </trans-unit>
-
-      <trans-unit id="8653756334160857301" datatype="html">
-        <source>Professional platform for presenting software projects, technical skills, and engineering decisions.</source>
-        <target>Plataforma profesional para presentar proyectos de software, habilidades técnicas y decisiones de ingeniería.</target>
-      </trans-unit>
-
-      <trans-unit id="1936591423765149976" datatype="html">
-        <source>Project in development</source>
-        <target>Proyecto en desarrollo</target>
-      </trans-unit>
-
-      <trans-unit id="8935601410263050975" datatype="html">
-        <source>Future software solution based on a real problem and documented engineering decisions.</source>
-        <target>Futura solución de software basada en un problema real y decisiones de ingeniería documentadas.</target>
-      </trans-unit>
-
-      <trans-unit id="3498696163227589365" datatype="html">
-        <source>Technology stack to be defined</source>
-        <target>Stack tecnológico por definir</target>
-      </trans-unit>
-
-      <trans-unit id="3721565330012615832" datatype="html">
-        <source>Future technical project focused on demonstrating software engineering and architecture practices.</source>
-        <target>Futuro proyecto técnico enfocado en demostrar prácticas de ingeniería y arquitectura de software.</target>
-      </trans-unit>
-
+      <!-- Technical skills -->
       <trans-unit id="6217511493264527013" datatype="html">
         <source> Technical Skills </source>
-        <target> Habilidades Técnicas </target>
+        <target> Habilidades técnicas </target>
       </trans-unit>
 
       <trans-unit id="4601942191846917666" datatype="html">
@@ -148,9 +96,9 @@
         <target> Stack tecnológico principal </target>
       </trans-unit>
 
-      <trans-unit id="6091436156788611252" datatype="html">
-        <source> Technologies and development practices used to build maintainable software solutions. </source>
-        <target> Tecnologías y prácticas de desarrollo utilizadas para construir soluciones de software mantenibles. </target>
+      <trans-unit id="1116469225754888360" datatype="html">
+        <source> Technologies and engineering practices used to build maintainable software solutions. </source>
+        <target> Tecnologías y prácticas de ingeniería utilizadas para construir soluciones de software mantenibles. </target>
       </trans-unit>
 
       <trans-unit id="4686856841409214006" datatype="html">
@@ -165,7 +113,7 @@
 
       <trans-unit id="4778639809439934218" datatype="html">
         <source>Responsive Design</source>
-        <target>Diseño responsivo</target>
+        <target>Diseño responsive</target>
       </trans-unit>
 
       <trans-unit id="6653134950663792290" datatype="html">
@@ -175,12 +123,55 @@
 
       <trans-unit id="8985868511640294928" datatype="html">
         <source>Testing</source>
-        <target>Pruebas</target>
+        <target>Testing</target>
       </trans-unit>
 
-      <trans-unit id="2811537846513093332" datatype="html">
-        <source>Software Architecture</source>
-        <target>Arquitectura de software</target>
+      <trans-unit id="5766568327063259379" datatype="html">
+        <source>Technical Documentation</source>
+        <target>Documentación técnica</target>
+      </trans-unit>
+
+      <!-- Projects -->
+      <trans-unit id="6831033116873984113" datatype="html">
+        <source> View source </source>
+        <target> Ver código fuente </target>
+      </trans-unit>
+
+      <trans-unit id="4228432094413352404" datatype="html">
+        <source> Software development evidence </source>
+        <target> Evidencia de desarrollo de software </target>
+      </trans-unit>
+
+      <trans-unit id="5349011889145828234" datatype="html">
+        <source> Selected projects demonstrate how I approach real software problems, technical decisions, implementation, testing, documentation, and delivery. </source>
+        <target> Los proyectos seleccionados demuestran cómo abordo problemas reales de software, decisiones técnicas, implementación, testing, documentación y entrega. </target>
+      </trans-unit>
+
+      <trans-unit id="2319147205177036523" datatype="html">
+        <source>Professional portfolio built to present software projects, technical skills, and engineering decisions through a maintainable and responsive Angular application.</source>
+        <target>Portafolio profesional construido para presentar proyectos de software, habilidades técnicas y decisiones de ingeniería mediante una aplicación Angular mantenible y responsive.</target>
+      </trans-unit>
+
+      <!-- Professional contact -->
+      <trans-unit id="3533248110916781745" datatype="html">
+        <source> Professional contact </source>
+        <target> Contacto profesional </target>
+      </trans-unit>
+
+      <trans-unit id="5537249907519637013" datatype="html">
+        <source> Connect with me through my professional profiles to learn more about my work, projects, and software development experience. </source>
+        <target> Conecta conmigo a través de mis perfiles profesionales para conocer más sobre mi trabajo, proyectos y experiencia en desarrollo de software. </target>
+      </trans-unit>
+
+      <!-- Footer -->
+      <trans-unit id="7330623732682309545" datatype="html">
+        <source> © 2026 Carlos A. Chávez Gutiérrez. All rights reserved. </source>
+        <target> © 2026 Carlos A. Chávez Gutiérrez. Todos los derechos reservados. </target>
+      </trans-unit>
+
+      <trans-unit id="7167878880958441334" datatype="html">
+        <source>Professional links</source>
+        <target>Enlaces profesionales</target>
       </trans-unit>
 
     </body>
