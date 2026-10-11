@@ -19,6 +19,26 @@
         <target> Contacto </target>
       </trans-unit>
 
+      <trans-unit id="3533248110916781745" datatype="html">
+        <source> Professional contact </source>
+        <target> Contacto profesional </target>
+      </trans-unit>
+
+      <trans-unit id="5537249907519637013" datatype="html">
+        <source> Connect with me through my professional profiles to learn more about my work, projects, and software development experience. </source>
+        <target> Conecta conmigo a través de mis perfiles profesionales para conocer más sobre mi trabajo, proyectos y experiencia en desarrollo de software. </target>
+      </trans-unit>
+
+      <trans-unit id="7330623732682309545" datatype="html">
+        <source> © 2026 Carlos A. Chávez Gutiérrez. All rights reserved. </source>
+        <target> © 2026 Carlos A. Chávez Gutiérrez. Todos los derechos reservados. </target>
+      </trans-unit>
+
+      <trans-unit id="7167878880958441334" datatype="html">
+        <source>Professional links</source>
+        <target>Enlaces profesionales</target>
+      </trans-unit>
+
       <trans-unit id="1187764551054003222" datatype="html">
         <source>Main navigation</source>
         <target>Navegación principal</target>
@@ -75,14 +95,55 @@
         <target> Construyendo soluciones de software mantenibles para problemas reales. </target>
       </trans-unit>
 
-      <trans-unit id="6586038178272372902" datatype="html">
-        <source> Software developer focused on backend development with Java and Spring Boot, with Angular as a complementary frontend capability. I build solutions with emphasis on maintainability, testing, documentation, and clear engineering decisions. </source>
-        <target> Desarrollador de software enfocado en backend con Java y Spring Boot, con Angular como capacidad frontend complementaria. Construyo soluciones con énfasis en mantenibilidad, testing, documentación y decisiones de ingeniería claras. </target>
+      <trans-unit id="5525029509756231139" datatype="html">
+        <source> Software developer focused primarily on backend development with Java and Spring Boot, complemented by frontend development with Angular and TypeScript. I build solutions with emphasis on maintainability, testing, documentation, and clear engineering decisions. </source>
+        <target> Desarrollador de software enfocado principalmente en desarrollo backend con Java y Spring Boot, complementado con desarrollo frontend con Angular y TypeScript. Construyo soluciones con énfasis en mantenibilidad, testing, documentación y decisiones de ingeniería claras. </target>
       </trans-unit>
 
       <trans-unit id="880985198172957962" datatype="html">
         <source> View Projects </source>
         <target> Ver proyectos </target>
+      </trans-unit>
+
+      <trans-unit id="908403711379220411" datatype="html">
+        <source> Download CV </source>
+        <target> Descargar CV </target>
+      </trans-unit>
+
+      <trans-unit id="7165461045226933702" datatype="html">
+        <source> Coming soon </source>
+        <target> Próximamente </target>
+      </trans-unit>
+
+      <!-- Projects -->
+      <trans-unit id="6831033116873984113" datatype="html">
+        <source> View source </source>
+        <target> Ver código fuente </target>
+      </trans-unit>
+
+      <trans-unit id="288138273095536621" datatype="html">
+        <source> Live demo </source>
+        <target> Ver demo </target>
+      </trans-unit>
+
+      <trans-unit id="4228432094413352404" datatype="html">
+        <source> Software development evidence </source>
+        <target> Evidencia de desarrollo de software </target>
+      </trans-unit>
+
+      <trans-unit id="5349011889145828234" datatype="html">
+        <source> Selected projects demonstrate how I approach real software problems, technical decisions, implementation, testing, documentation, and delivery. </source>
+        <target> Los proyectos seleccionados demuestran cómo abordo problemas reales de software, decisiones técnicas, implementación, testing, documentación y entrega. </target>
+      </trans-unit>
+
+      <trans-unit id="2026446592308955034" datatype="html">
+        <source>Professional bilingual and responsive platform built to present my profile, software projects, technical skills, and engineering decisions. It includes adaptive navigation, light and dark themes, English and Spanish localization, automated testing, technical documentation, CI/CD, and continuous deployment.</source>
+        <target>Plataforma profesional bilingüe y responsive construida para presentar mi perfil, proyectos de software, habilidades técnicas y decisiones de ingeniería. Incluye navegación adaptativa, temas claro y oscuro, localización en inglés y español, testing automatizado, documentación técnica, CI/CD y despliegue continuo.</target>
+      </trans-unit>
+
+      <trans-unit id="15612659008272891" datatype="html">
+        <source>Informational and commercial website developed for a Mexican microenterprise. Built as a responsive landing page with adaptive navigation, a functional contact form using Nodemailer, and serverless deployment on Vercel.</source>
+        <target>Sitio web informativo y comercial desarrollado para una microempresa mexicana. Construido como una landing page responsive con navegación adaptativa, un formulario de contacto funcional mediante Nodemailer y despliegue serverless en Vercel.</target>
       </trans-unit>
 
       <!-- Technical skills -->
@@ -129,49 +190,6 @@
       <trans-unit id="5766568327063259379" datatype="html">
         <source>Technical Documentation</source>
         <target>Documentación técnica</target>
-      </trans-unit>
-
-      <!-- Projects -->
-      <trans-unit id="6831033116873984113" datatype="html">
-        <source> View source </source>
-        <target> Ver código fuente </target>
-      </trans-unit>
-
-      <trans-unit id="4228432094413352404" datatype="html">
-        <source> Software development evidence </source>
-        <target> Evidencia de desarrollo de software </target>
-      </trans-unit>
-
-      <trans-unit id="5349011889145828234" datatype="html">
-        <source> Selected projects demonstrate how I approach real software problems, technical decisions, implementation, testing, documentation, and delivery. </source>
-        <target> Los proyectos seleccionados demuestran cómo abordo problemas reales de software, decisiones técnicas, implementación, testing, documentación y entrega. </target>
-      </trans-unit>
-
-      <trans-unit id="2319147205177036523" datatype="html">
-        <source>Professional portfolio built to present software projects, technical skills, and engineering decisions through a maintainable and responsive Angular application.</source>
-        <target>Portafolio profesional construido para presentar proyectos de software, habilidades técnicas y decisiones de ingeniería mediante una aplicación Angular mantenible y responsive.</target>
-      </trans-unit>
-
-      <!-- Professional contact -->
-      <trans-unit id="3533248110916781745" datatype="html">
-        <source> Professional contact </source>
-        <target> Contacto profesional </target>
-      </trans-unit>
-
-      <trans-unit id="5537249907519637013" datatype="html">
-        <source> Connect with me through my professional profiles to learn more about my work, projects, and software development experience. </source>
-        <target> Conecta conmigo a través de mis perfiles profesionales para conocer más sobre mi trabajo, proyectos y experiencia en desarrollo de software. </target>
-      </trans-unit>
-
-      <!-- Footer -->
-      <trans-unit id="7330623732682309545" datatype="html">
-        <source> © 2026 Carlos A. Chávez Gutiérrez. All rights reserved. </source>
-        <target> © 2026 Carlos A. Chávez Gutiérrez. Todos los derechos reservados. </target>
-      </trans-unit>
-
-      <trans-unit id="7167878880958441334" datatype="html">
-        <source>Professional links</source>
-        <target>Enlaces profesionales</target>
       </trans-unit>
 
     </body>

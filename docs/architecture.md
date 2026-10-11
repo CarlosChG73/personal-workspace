@@ -69,17 +69,20 @@ The current interface contains the following areas:
   - Professional introduction.
   - Short description of the professional profile.
   - Professional profile image.
-  - Primary call to action.
+  - Primary call to action for projects.
+  - Reserved CV download control until the final public CV is available.
 
 3. Skills
   - Main technical skills.
   - Technologies and engineering practices grouped by relevant areas.
+  - Selected local technology icons used as decorative visual support.
 
 4. Projects
   - Verified software project evidence.
   - Project description.
   - Technologies used.
   - Source code link when available.
+  - Live demo link when available.
 
 5. Contact
   - Professional contact section.
@@ -101,13 +104,14 @@ The current interface contains the following areas:
 
 [ Hero Section ]
 [ Professional introduction | Profile image ]
-[ Primary action ]
+[ Projects action | Reserved CV control ]
 
 [ Skills Section ]
 [ Technical skills grouped by area ]
 
 [ Projects Section ]
-[ Verified Project Card ]
+[ Verified Project Cards ]
+[ Source and live-demo links when available ]
 
 [ Contact Section ]
 [ Professional profile links ]
@@ -194,11 +198,13 @@ The application currently uses the following components:
 - `Hero`
   - Displays the professional introduction.
   - Displays the professional profile image.
-  - Includes the primary call to action.
+  - Includes the primary projects call to action.
+  - Reserves the future CV download position without linking to a nonexistent file.
 
 - `Skills`
   - Displays the main technical skills.
   - Groups technologies and engineering practices by relevant areas.
+  - Uses selected local technology icons as decorative presentation assets.
 
 - `Projects`
   - Displays verified software project evidence.
@@ -206,7 +212,9 @@ The application currently uses the following components:
 
 - `ProjectCard`
   - Represents an individual software project.
-  - Displays the project description, technologies, and source code link when available.
+  - Displays the project description and technologies.
+  - Displays a source code link when available.
+  - Displays a live demo link when available.
   - Is reusable across multiple projects.
 
 - `Contact`
@@ -245,6 +253,35 @@ Utility classes are used directly in Angular templates to define:
 
 Global CSS remains limited to configuration and application-wide behavior that cannot be expressed appropriately at the component level.
 
+## Static Assets
+
+Public static resources are stored under `public/`.
+
+Current assets include:
+
+- Professional profile image.
+- Favicons and web app manifest.
+- Selected technology icons used by the Skills section.
+
+Technology icons are stored locally under:
+
+```text
+public/icons/
+```
+
+The current local icon set contains:
+
+```text
+angular.png
+astro.svg
+git.svg
+typescript.png
+```
+
+These icons are decorative because each technology name is also rendered as visible text.
+
+Technologies or engineering practices without an appropriate local brand asset remain text-only rather than introducing unnecessary icon libraries or external runtime dependencies.
+
 ## Localization Build Strategy
 
 Localized production builds are generated using Angular CLI localization:
@@ -271,7 +308,7 @@ Current tests cover:
 - Mobile navigation interaction.
 - Theme switching and persistence.
 - Language-selection behavior.
-- Project repository-link behavior.
+- Project repository and live-demo link behavior.
 - Relevant component behavior.
 
 Tests are not added solely to increase a coverage number.

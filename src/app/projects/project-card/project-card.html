@@ -14,18 +14,32 @@
     {{ technologies() }}
   </p>
 
-  <!-- Public repository link when available -->
-  @if (repositoryUrl()) {
-  <div class="mt-6">
+  <!-- Public project links -->
+  @if (repositoryUrl() || demoUrl()) {
+  <div class="mt-6 flex flex-wrap gap-4">
+    @if (repositoryUrl()) {
     <a
       i18n
       [href]="repositoryUrl()"
       target="_blank"
       rel="noopener noreferrer"
-      class="text-sm font-semibold text-slate-900 underline-offset-4 hover:underline dark:text-white"
+      class="text-sm font-semibold text-slate-900 underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-900 focus-visible:ring-offset-2 dark:text-white dark:focus-visible:ring-white dark:focus-visible:ring-offset-slate-900"
     >
       View source
     </a>
+    }
+
+    @if (demoUrl()) {
+    <a
+      i18n
+      [href]="demoUrl()"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-sm font-semibold text-slate-900 underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-900 focus-visible:ring-offset-2 dark:text-white dark:focus-visible:ring-white dark:focus-visible:ring-offset-slate-900"
+    >
+      Live demo
+    </a>
+    }
   </div>
   }
 </article>

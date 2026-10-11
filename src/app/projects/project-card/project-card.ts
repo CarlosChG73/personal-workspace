@@ -7,11 +7,12 @@ import { Component, input } from '@angular/core';
   templateUrl: './project-card.html',
 })
 export class ProjectCard {
-  // Project data provided by the parent section.
+  // Project information provided by the parent section.
   title = input.required<string>();
   description = input.required<string>();
   technologies = input.required<string>();
 
-  // Public source code is linked only when available.
+  // Public project links are displayed only when available.
   repositoryUrl = input<string>();
+  demoUrl = input<string>();
 }

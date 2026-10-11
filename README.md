@@ -27,8 +27,9 @@ The current MVP includes:
 - Professional introduction.
 - Professional profile image.
 - Technical skills section.
-- Projects section.
+- Projects section with verified public project evidence.
 - Reusable project card component.
+- Repository and live-demo links when available.
 - Professional contact section.
 - Sticky header.
 - Responsive desktop and mobile navigation.
@@ -42,6 +43,7 @@ The current MVP includes:
 - Automated component tests.
 - Continuous integration with GitHub Actions.
 - Automated deployment to GitHub Pages.
+- Reserved CV download control, currently disabled until the final public CV is available.
 
 The current MVP does not include:
 
@@ -165,7 +167,7 @@ The tests include coverage for relevant interactions such as:
 - Mobile navigation.
 - Theme switching and persistence.
 - English and Spanish language-selection behavior.
-- Project repository-link behavior.
+- Project repository and live-demo link behavior.
 - Component creation and relevant component behavior.
 
 Run the test suite once with:
@@ -327,7 +329,27 @@ src/
 `-- styles.css
 ```
 
-Public assets include the professional profile image, favicon variants, and web app manifest.
+Public assets include:
+
+```text
+public/
+|-- icons/
+|   |-- angular.png
+|   |-- astro.svg
+|   |-- git.svg
+|   `-- typescript.png
+|-- images/
+|   `-- carlos-chavez-perfil.png
+|-- favicon.ico
+|-- favicon-16x16.png
+|-- favicon-32x32.png
+|-- apple-touch-icon.png
+|-- android-chrome-192x192.png
+|-- android-chrome-512x512.png
+`-- site.webmanifest
+```
+
+The locally stored technology icons are used as presentation assets in the Skills section. Technologies or engineering practices without an appropriate local brand asset remain text-only.
 
 Technical documentation is stored separately:
 
